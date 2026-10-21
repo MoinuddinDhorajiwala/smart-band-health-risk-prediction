@@ -1,0 +1,32 @@
+{
+  "model": "RandomForestClassifier",
+  "random_state": 42,
+  "test_size": 0.2,
+  "train_rows": 14511,
+  "test_rows": 3628,
+  "features": [
+    "age_years",
+    "gender",
+    "city",
+    "state",
+    "latitude",
+    "longitude",
+    "body_temperature_c",
+    "blood_oxygen_percent",
+    "location_method",
+    "battery_percent",
+    "band_removed",
+    "heart_rate_bpm",
+    "systolic_bp_mmhg",
+    "diastolic_bp_mmhg",
+    "steps",
+    "record_hour",
+    "record_dayofweek",
+    "record_month"
+  ],
+  "accuracy": 0.9404630650496141,
+  "precision": 0.9505851755526658,
+  "recall": 0.9126092384519351,
+  "f1_score": 0.9312101910828026,
+  "warning": "Research/demo output only; not a medically validated diagnosis."
+}
